@@ -1,1 +1,1 @@
-<!ENTITY ping "DTD_LOADED_FROM_JSDELIVR">
+<!ENTITY joined "%begin;%file;%end;">
